@@ -1,0 +1,124 @@
+html {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+body {
+
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 600px;
+    background-color: black;
+}
+
+#start-pause-button , #restart {
+    background-color: #e00a0a;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-size: medium;
+    color: #e00a0a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#result,#time-left{
+    font-size: larger;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid {
+    border: 5px solid black;
+    height: 720px;
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(184, 184, 172);
+}
+
+/* every div inside grid */
+.grid div {
+
+    height: 20px;
+    /*  180/9 */
+    width: 40px;
+}
+
+
+
+.ending-block {
+    background-color: red;
+
+}
+
+/* river */
+.log-left,
+.log-right {
+    background-color: lightblue;
+}
+
+
+
+.starting-block {
+    background-color: blue;
+    border-radius: 10cm;
+
+}
+
+/* Wood */
+.l1,
+.l2,
+.l3 {
+    background-color: rgba(0, 255, 255, 255);
+    background-size: 100% 100%;
+    background-image: url("wood.png");
+}
+
+/* Water */
+.l4,
+.l5 {
+    background-color: rgba(0, 255, 255, 255);
+}
+
+/* car */
+.c1 {
+    background-color: rgba(35, 35, 35, 255);
+    background-size: 100% 100%;
+    background-image: url("car-driving-7.gif");
+}
+
+/* road */
+.c2,
+.c3 {
+    background-color: rgb(60, 68, 64);
+
+    background-size: 100% 100%;
+    background-image: url("road.webp");
+}
+
+.frog {
+    background-size: 100% 100%;
+    background-image: url("frog.gif");
+
+}
